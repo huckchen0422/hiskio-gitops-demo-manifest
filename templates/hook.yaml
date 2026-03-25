@@ -15,7 +15,7 @@ spec:
         image: hwchiu/netutils
         command:
           - "echo"
-          - "pre-hook"
+          - "pre-sync"
       restartPolicy: Never
   backoffLimit: 1
 ---
@@ -34,7 +34,7 @@ spec:
         image: hwchiu/netutils
         command:
           - "echo"
-          - "post-hook"
+          - "post-sync"
       restartPolicy: Never
   backoffLimit: 1
 {{ end }}

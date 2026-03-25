@@ -8,5 +8,5 @@ nginx:
     repo: huckchen0422/hiskio-gitops
     tag: 6c6a065
   pullPolicy: Always
-  prefix: dev-demo
-hook: false
+  prefix: hook-demo
+hook: true
